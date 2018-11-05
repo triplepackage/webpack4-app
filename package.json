@@ -1,17 +1,40 @@
 {
-  "name": "webpack-app",
+  "name": "baltimore-county-rental-portal",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "js/index.js",
   "scripts": {
-    "start": "webpack-dev-server --open --mode development",
+    "dev": "webpack-dev-server --open --mode development --inline --hot --port 5000 --host 0.0.0.0",
     "build": "webpack --mode production"
   },
   "keywords": [],
-  "author": "",
+  "author": "John Domingo",
   "license": "ISC",
+  "dependencies": {
+    "axios": "^0.12.0",
+    "chart.js": "^2.7.3",
+    "clean-webpack-plugin": "^0.1.19",
+    "dotenv-webpack": "^1.5.7",
+    "react": "^16.5.2",
+    "react-bootstrap": "^0.32.4",
+    "react-chartjs-2": "^2.7.4",
+    "react-charts": "^1.0.10",
+    "react-dom": "^16.5.2",
+    "react-moment": "^0.8.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-router-native": "^4.3.0",
+    "react-scripts": "1.1.5",
+    "react-table": "^6.8.6",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-promise-middleware": "^3.2.0",
+    "redux-thunk": "^2.1.0",
+    "register-service-worker": "^1.5.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
@@ -21,6 +44,7 @@
     "mini-css-extract-plugin": "^0.4.4",
     "webpack": "^4.25.0",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10"
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4"
   }
 }
