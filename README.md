@@ -1,4 +1,6 @@
-# webpack4-app
+# Baltimore County Rental UI with ReactJs, Redux and Webpack 4
+
+http://ec2-34-204-247-182.compute-1.amazonaws.com/
 
 <pre>
 Johns-MBP:GitHub admin$ mkdir webpack-app
@@ -180,3 +182,8 @@ Child mini-css-extract-plugin node_modules/css-loader/index.js!src/main.css:
 ℹ ｢wdm｣: Compiled successfully.
 
 </pre>
+
+![Alt text](./assets/image02.jpg?raw=true "AWS")
+![Alt text](./assets/image01.jpg?raw=true "AWS")
+![Alt text](./assets/image03.jpg?raw=true "AWS")
+![Alt text](./assets/image04.jpg?raw=true "AWS")
